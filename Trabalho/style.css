@@ -183,3 +183,78 @@
   display: block;
   color: #333;
 }
+
+/* --- ESTILOS PARA AS PÁGINAS INTERNAS --- */
+
+.internal-section {
+  padding: 60px 10%;
+  color: #333;
+}
+
+.internal-section h1 {
+  font-size: 2.5rem;
+  color: #16395c;
+  margin-bottom: 20px;
+}
+
+.internal-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.resource-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.blog-post {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #3ea276;
+}
+
+.blog-post h3 {
+  color: #297287;
+  margin-bottom: 5px;
+}
+
+.blog-post p:nth-child(2) {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+/* Estilos de Formulários (Contato e Começar) */
+.form-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.custom-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.custom-form input, 
+.custom-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.custom-form .btn {
+  margin-top: 25px;
+  width: 100%;
+}
