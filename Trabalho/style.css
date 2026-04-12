@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Tipografia e Botões */
+.btn {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover { opacity: 0.8; }
+
+.btn-primary {
+  background-color: #3ea276;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #3ea276;
+  color: white;
+  padding: 12px 30px;
+}
+
+.btn-center {
+  display: block;
+  margin: 40px auto 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #ffffff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #16395c;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #16395c;
+  border-radius: 8px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+/* Hero Section (Fundo Gradiente) */
+.hero-section {
+  background: linear-gradient(135deg, #16395c 0%, #297287 50%, #3ea276 100%);
+  color: white;
+  padding: 100px 5% 150px; /* Padding extra embaixo para os cards sobreporem */
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Cards de Recursos (Sobreposição) */
+.features-section {
+  display: flex;
+  justify-content: center;
+  padding: 0 5%;
+  margin-top: -80px; /* Puxa os cards para cima do Hero */
+  position: relative;
+  z-index: 10;
+}
+
+.feature-card {
+  flex: 1;
+  max-width: 350px;
+  padding: 40px 30px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-dark { background-color: #21486d; }
+.card-teal { background-color: #2f859a; }
+.card-green { background-color: #46b886; }
+
+.feature-card .icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.feature-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* Depoimentos */
+.testimonials-section {
+  padding: 80px 5%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.testimonials-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial-item {
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial-item p {
+  font-size: 0.95rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.testimonial-item strong {
+  display: block;
+  color: #333;
+}
