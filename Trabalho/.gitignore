@@ -1,0 +1,6 @@
+Trabalho/node_modules/
+Trabalho/test-results/
+Trabalho/playwright-report/
+Trabalho/coverage/
+Trabalho/.cache/
+*.log
