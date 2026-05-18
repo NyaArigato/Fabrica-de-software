@@ -28,12 +28,12 @@ jobs:
         with:
           node-version: 20
 
-      - name: Instalar dependências
-        run: npm install
+      - - name: Instalar dependências
+  run: npm ci
 
       - name: Instalar navegadores do Playwright
-        run: npx playwright install --with-deps
-
+  run: npx --yes playwright install --with-deps
+  
       - name: Executar testes unitários
         run: npm run test:unit
 
